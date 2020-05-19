@@ -24,3 +24,7 @@ The robot will be moving around the village. There are parcels in various places
 * To be able to simulate this process, a virtual world must defined.This model tells us where the robot is and where the parcels are. When the robot has decided to move somewhere, we need to update the model to reflect the new situation.
 
 **Instead** of impulsively following OOP and creating classes that define objects in the virtual world, I am going to condense the village’s state down to the minimal set of values that define it. There’s the robot’s current location and the collection of undelivered parcels, each of which has a current location and a destination address. That’s it!
+
+### Result
+![result](./public/result.png)
+etc.....
